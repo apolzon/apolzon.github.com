@@ -1,8 +1,8 @@
 set :application, "blog"
-set :repository,  "p184576r"
+set :user,  "p184576r"
 set :domain, "applesonthetree.com"
 set :mongrel_port, "21800"
-set :server, "applesonthetree.com"
+set :server_hostname, "applesonthetree.com"
 
 set :git_account, "apolzon"
 

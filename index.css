@@ -1,0 +1,14 @@
+#apple {
+  position: absolute;
+  top: 260px;
+  left: 670px;
+  height: 119px;
+  display: block;
+  width: 100px;
+  cursor: default;
+}
+
+#pages {
+  display: none;
+  height: 100%;
+}

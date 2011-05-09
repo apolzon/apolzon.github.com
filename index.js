@@ -4,7 +4,7 @@ $(document).ready(function() {
       console.log(data);
       $("#welcome").toggle();
       $("#pages").toggle();
-      $("#page1").html("<h1>B00!</h1>");
+      $("#page1").html("<h1>Welcome to the Backyard Wiki</h1>");
       $(data).each(function(index, item) {
         $("#page1").append("<h2>" + item["title"] + "</h2>");
         $("#page1").append("<p>" + item["content"] + "</p>");

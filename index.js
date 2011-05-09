@@ -1,7 +1,6 @@
 $(document).ready(function() {
   $("#apple").click(function() {
     $.get("https://mongolab.com/api/1/databases/apolzon_github/collections/entries?apiKey=4d11732643274c5e0cc02c38", function(data) {
-      console.log(data);
       $("#welcome").toggle();
       $("#pages").toggle();
       $("#page1").html("<h1>Welcome to the Backyard Wiki</h1>");
